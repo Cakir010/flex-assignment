@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(112, 121, 139);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* ===============================0 */
+
+header {
+  /* border: 2px solid red; */
+  background-color: wheat;
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  align-items: center;
+  color: rgb(112, 121, 139);
+  font-size: 1.3rem;
+}
+/* ==================================================== */
+.left {
+  display: flex;
+  gap: 5rem;
+}
+.left a {
+  text-decoration: none;
+}
+
+/* ========================================== */
+
+.right {
+  display: flex;
+  gap: 5rem;
+}
+.right a {
+  text-decoration: none;
+}
+.center {
+  color: rgb(156, 51, 12);
+}
+/* =========================================== */
+
+main {
+  background-color: rgb(112, 121, 139);
+  margin: 40px;
+  color: wheat;
+}
+
+/* ============footer============================ */
+
+footer {
+  background-color: wheat;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer h5 {
+  color: rgb(156, 51, 12);
+}
+footer a {
+  text-decoration: none;
+}
+/* =============BOX1============== */
+.box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.3rem;
+}
+.box1 h5 {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+/* =============BOX2================== */
+.box2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.3rem;
+}
+.box2 h5 {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+/* =============BOX3================== */
+.box3 {
+  /* border: 1px solid red; */
+  width: 12%;
+}
+.box3 h5 {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+.box3 p {
+  text-align: justify;
+  color: rgb(112, 121, 139);
+}
+/* ================BOX4============ */
+.box4 {
+  /* border: 1px solid red; */
+  width: 12%;
+}
+.box4 h5 {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+.box4 p {
+  text-align: justify;
+  color: rgb(112, 121, 139);
+}
