@@ -111,3 +111,15 @@ footer a {
   text-align: justify;
   color: rgb(112, 121, 139);
 }
+
+.fa-cart-shopping::after {
+  font-size: 10px;
+  content: "2";
+  color: white;
+  position: relative;
+  left: -5px;
+  bottom: 10px;
+  background-color: red;
+  padding: 3px;
+  border-radius: 50%;
+}
